@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="pl-PL">
+
+<head>
+
+<title>Social ankiet</title>
+
+<meta charset="UTF-8">
+
+<link href="social anket.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+	<div class="questions">
+
+		<fieldset>
+
+			<legend>Uzupełnij informacje obywatelu</legend>
+			
+		<form>
+			<label for="aname">Imię:</label>
+				<input type="text" id="fname" name="obywatel"><br>
+			<label for="bname">Nazwisko:</label>
+				<input type="text" id="lname" name="obywatel"><br>
+			<label for="cname">Email:</label>
+				<input type="email" id="email" name="obywatel"><br>
+			<label for="dname">Data urodzin:</label>
+				<input type="date" id="birthday" name="obywatel"><br>
+			<label for="ename">Telefon:</label>
+				<input type="text" id="fname" name="obywatel"><br>
+			<label for="fname">Pesel:</label>
+				<input type="text" id="fname" name="obywatel"><br>
+			<label for="fname">Set your credit score:</label>
+				<input type="number" name="social" min="-100" max="69420">
+		</form>
+
+		<form>
+		<label for="hname">Wybierz swoje ulubione danie:</label>
+			<select id="jedzonko">
+				<option value="Ryż">Ryż</option>
+				<option value="Ryżek">Ryż</option>
+				<option value="kranówa">Szklanka brudnej kranówy</option>
+				<option value="Miska">Miska Ryżu</option>
+				<input type="submit" value="Submit">
+			</select>
+		</form>
+		
+		<form>
+			<p>&#127514;Czy wspierasz chiński rząd&#127514;:
+				<input type="checkbox" name="odpowiedź" value="Tak" checked="">Tak
+
+			</p>
+		</form>
+		
+		<form>
+			<p>Kraj pochodzenia:
+				<div><input type="radio" name="kraj" value="Chiny" checked="">Chiny</div>
+				<div><input type="radio" name="kraj" value="Korea Północna" checked="">Korea Północna</div>
+				<div><input type="radio" name="kraj" value="Taiwan" checked="">Taiwan</div>
+			</p>
+		</form>
+		
+		<form method="post">
+		
+			<p>Prześlij swoje zdjęcie:</p>
+				<input type="file" name="zdjęcie obywatela"><br>
+				<input type="submit" value="Prześlij">
+		</form>
+		
+		
+	<audio id="myAudio">
+  
+  <source src="mao zedong.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
+
+<p>Click the buttons to play or pause the audio.</p>
+
+<button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+
+<script>
+var x = document.getElementById("myAudio"); 
+
+function playAudio() { 
+  x.play(); 
+} 
+
+function pauseAudio() { 
+  x.pause(); 
+} 
+
+</script>
+
+
+		</fieldset>	
+	</div><br>
+  
+  <style>
+           #image{
+                display:none;
+      </style>
+</head>
+  <body>
+      <div>
+           <img src="+20.png" id="image" alt="Medical" />
+      </div>
+
+       <div class="but"> <button type="button" onclick="imageShow()">Click if you love China</button></div>
+
+       <script>
+             function imageShow(){
+                    document.getElementById('image').style.display = "block";       
+                    }
+        </script>
+  
+</body>

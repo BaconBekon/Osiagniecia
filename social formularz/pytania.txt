@@ -1,0 +1,31 @@
+<div class="container">
+	<div id="question-container" class="hide">
+		<div id="question">Question</div>
+			<div id="answer-buttons" class="btn-grid">
+				<button class="btn">Answer1</button>
+				<button class="btn">Answer2</button>
+				<button class="btn">Answer3</button>
+				<button class="btn">Answer4</button>
+				</div>
+			</div>
+			
+				What happened 4 june 1989?
+				
+				-nothing
+				-Ofiary śmiertelne ok. 2600 osób
+				-Ryż
+			
+			
+				How many kids can you have?
+				
+				-2
+				-ok. 2600 osób
+				-1
+			
+			
+				How much time can you spend playing computer gaems?
+				
+				-all day&#128526;
+				-5 hours
+				-3 hours
+</div>
