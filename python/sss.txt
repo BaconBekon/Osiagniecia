@@ -1,0 +1,31 @@
+print("Podaj zmienne")
+
+b = int(input("podaj b: "))
+
+a= b ** 3 + 5
+
+print(a)
+
+b = int(input("podaj b: "))
+a = (4 - b ) /5
+print(a)
+
+b = int(input("podaj b: "))
+a = (2 ** 3 + b ) / 3 ** 2
+print(a)
+
+b = int(input("podaj b: "))
+a*=3 ** 3 + b
+print (a)
+
+i = int(input("podaj i: "))
+k = int(input("podaj k: "))
+k-=i * 5 + 2
+
+print (k)
+
+w = int(input("podaj w: "))
+z = int(input("podaj z: "))
+
+w%= 4 + z ** 2 
+print (w)
