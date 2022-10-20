@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formularz Klienta</title>
+</head>
+<body>
+<h2>Formularz dla Klienta</h2>
+
+<form action="/action_page.php">
+
+  <label for="id">Id Klienta:</label><br>
+  <input type="text" id="id" name="id" required><br>
+  
+  <label for="Imie">Imię:</label><br>
+  <input type="text" id="Imie" name="Imie" required><br>
+  
+  <label for="Nazwisko">Nazwisko:</label><br>
+  <input type="text" id="Nazwisko" name="Nazwisko" required><br>
+  
+  <label for="phone">Telefon:</label><br>
+  <input type="tel" id="phone" name="phone" placeholder="123 469 420"
+  pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+  
+  <label for="adres">adres:</label><br>
+  <input type="text" id="adres" name="adres" required><br><br>
+  
+  
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>`

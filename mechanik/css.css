@@ -1,0 +1,84 @@
+body {
+    background-image: url(supercar.jpeg);
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  
+  header {
+    opacity: 0.9;
+    background-color: rgb(196, 192, 192);
+    text-align: center;
+    padding: 10px;
+    height: 150px;
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+#a{
+	  margin-top: 10px;
+	  font-family: 'Brush Script MT', cursive;
+	  
+  }
+  
+  body{
+    background-image: url("supercar.jpg");
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.niga{
+	 background-image: url(legobutton.png);
+            background-size: cover;
+            width: 180px;
+            height:  60px;
+            font-size: 2rem;
+			cursor: pointer;
+			background-color: rgb(196, 192, 192);
+			border: none;
+			margin-top: 0px;
+			transform: rotate(0turn);
+			transition: transform 0.5s ease;
+    }
+
+.niga:hover{
+background-image: url(skull.png);
+  color: black;
+  background-size: 90px;
+  transform: rotate(1turn);
+}	
+	
+article {
+     opacity: 0.9;
+    background-color: rgb(179, 227, 255);
+    text-align: center;
+    padding: 10px;
+    height: 90%;
+    width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+  }
+  
+  footer {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  

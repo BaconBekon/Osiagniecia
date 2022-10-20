@@ -1,0 +1,5 @@
+dodaj_klienta.html
+dodaj_mechanika.html
+dodaj_samochod.html
+dodaj_naprawe.html
+dodaj_czesc.html
